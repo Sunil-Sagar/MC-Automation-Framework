@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MC Automation Framework - Setup Installer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+        
+        .container {
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            max-width: 800px;
+            width: 100%;
+            padding: 50px;
+            text-align: center;
+        }
+        
+        h1 {
+            color: #333;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        
+        .info-box {
+            background: #f8f9fa;
+            border-left: 4px solid #667eea;
+            padding: 20px;
+            margin: 30px 0;
+            text-align: left;
+        }
+        
+        .info-box h3 {
+            color: #667eea;
+            margin-bottom: 15px;
+        }
+        
+        .info-box ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        
+        .info-box li {
+            padding: 8px 0;
+            color: #555;
+        }
+        
+        .info-box li:before {
+            content: "✓ ";
+            color: #667eea;
+            font-weight: bold;
+            margin-right: 10px;
+        }
+        
+        .download-btn {
+            display: inline-block;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            text-decoration: none;
+            padding: 20px 50px;
+            border-radius: 50px;
+            font-size: 1.3em;
+            font-weight: bold;
+            transition: transform 0.3s, box-shadow 0.3s;
+            margin: 20px 0;
+        }
+        
+        .download-btn:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+        }
+        
+        .download-btn:active {
+            transform: translateY(-1px);
+        }
+        
+        .steps {
+            background: #e3f2fd;
+            border-radius: 10px;
+            padding: 25px;
+            margin-top: 30px;
+            text-align: left;
+        }
+        
+        .steps h3 {
+            color: #1976d2;
+            margin-bottom: 15px;
+        }
+        
+        .steps ol {
+            padding-left: 20px;
+        }
+        
+        .steps li {
+            padding: 8px 0;
+            color: #555;
+            line-height: 1.6;
+        }
+        
+        .footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #eee;
+            color: #999;
+            font-size: 0.9em;
+        }
+        
+        .warning {
+            background: #fff3cd;
+            border-left: 4px solid #ffc107;
+            padding: 15px;
+            margin: 20px 0;
+            color: #856404;
+            text-align: left;
+        }
+        
+        .warning strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🚀 MC Automation Framework</h1>
+        <p class="subtitle">Complete Project Setup Installer</p>
+        
+        <div class="info-box">
+            <h3>What This Installer Does</h3>
+            <ul>
+                <li>Creates complete project structure automatically</li>
+                <li>Generates all Copilot instruction files</li>
+                <li>Sets up skills and project memory system</li>
+                <li>Creates VS Code workspace configuration</li>
+                <li>Includes README and documentation templates</li>
+            </ul>
+        </div>
+        
+        <a href="MC-Automation-Framework-SETUP.bat" download class="download-btn">
+            📥 Download Setup Installer
+        </a>
+        
+        <div class="warning">
+            <strong>⚠️ Important:</strong>
+            This batch file is designed for Windows machines only. Make sure you have the necessary permissions to create folders and files on your system.
+        </div>
+        
+        <div class="steps">
+            <h3>Installation Steps</h3>
+            <ol>
+                <li>Click the download button above to get <code>MC-Automation-Framework-SETUP.bat</code></li>
+                <li>Save the file anywhere on your Windows machine</li>
+                <li>Double-click the downloaded <code>.bat</code> file to run it</li>
+                <li>The installer will create the complete project at:<br>
+                    <code>C:\Users\sunsagar\Sunil\Mayo\Automation\MC-Automation-Framework</code></li>
+                <li>Follow the on-screen instructions to complete setup</li>
+                <li>Open <code>MC-Automation-Framework.code-workspace</code> in VS Code</li>
+            </ol>
+        </div>
+        
+        <div class="info-box">
+            <h3>What You Get</h3>
+            <ul>
+                <li>35+ pre-configured files and folders</li>
+                <li>GitHub Copilot instructions and context</li>
+                <li>13 reusable skills for automation tasks</li>
+                <li>Phase-specific instruction files</li>
+                <li>Complete documentation structure</li>
+                <li>Ready-to-use workspace configuration</li>
+            </ul>
+        </div>
+        
+        <div class="footer">
+            <p>Built by Sunil Sagar - Automation and Performance Tester</p>
+            <p>MC Healthcare Portal Automation Project</p>
+        </div>
+    </div>
+</body>
+</html>

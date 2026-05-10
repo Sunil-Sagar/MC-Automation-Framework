@@ -1,5 +1,17 @@
 # MC-Automation-Framework
 
+## 🚀 Quick Start - Download Setup Installer
+
+**For ODC machines (or any Windows machine):**
+
+Visit the download page: **[Download will be available after Vercel deployment]**
+
+Or download directly from this repository:
+- Download `MC-Automation-Framework-SETUP.bat`
+- Double-click to run the installer
+- Complete project structure created automatically at:  
+  `C:\Users\sunsagar\Sunil\Mayo\Automation\MC-Automation-Framework`
+
 ## What is this?
 
 This folder contains the AI-powered Copilot setup for the

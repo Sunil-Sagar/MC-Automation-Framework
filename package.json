@@ -1,0 +1,10 @@
+{
+  "name": "mc-automation-framework",
+  "version": "1.0.0",
+  "description": "MC Automation Framework Setup Installer Download Page",
+  "scripts": {
+    "start": "echo 'Static site - no build required'"
+  },
+  "author": "Sunil Sagar",
+  "license": "ISC"
+}
