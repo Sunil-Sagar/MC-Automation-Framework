@@ -1,0 +1,45 @@
+{
+  "folders": [
+    {
+      "name": "MC-Automation-Framework (Copilot Setup^)",
+      "path": "."
+    },
+    {
+      "name": "Old Framework (Patient_Portal_Automation^)",
+      "path": "C:\\[FILL IN — confirm old framework path on ODC machine]"
+    },
+    {
+      "name": "New Framework (Personalized_Plus^)",
+      "path": "C:\\[FILL IN — confirm new framework path on ODC machine]"
+    }
+  ],
+  "settings": {
+    "editor.fontSize": 14,
+    "editor.wordWrap": "on",
+    "editor.formatOnSave": false,
+    "files.autoSave": "off",
+    "github.copilot.enable": {
+      "*": true
+    },
+    "github.copilot.chat.welcomeMessage": "always",
+    "workbench.colorTheme": "Default Dark Modern",
+    "explorer.confirmDelete": true,
+    "explorer.confirmDragAndDrop": true,
+    "editor.rulers": [72],
+    "files.exclude": {
+      "**/.git": true,
+      "**/target": true,
+      "**/*.class": true
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "github.copilot",
+      "github.copilot-chat",
+      "vscjava.vscode-java-pack",
+      "cucumberopen.cucumber-official",
+      "redhat.java",
+      "vscjava.vscode-maven"
+    ]
+  }
+}

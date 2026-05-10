@@ -1,0 +1,39 @@
+# config.properties.template
+# Copy this file, rename to config.properties, fill in values
+# NEVER commit config.properties to the repository
+# Only commit this .template file
+
+# ADO Configuration
+ado.org=https://dev.azure.com/MCLM
+ado.project=[FILL IN]
+ado.masterPlanId=[FILL IN]
+ado.masterSuiteId=[FILL IN]
+ado.releasePlanId=[FILL IN]
+ado.releaseSuiteId=[FILL IN]
+ado.pat=[FILL IN - Personal Access Token - never commit actual value]
+ado.repositoryId=[FILL IN]
+ado.reviewerIds=[FILL IN - comma separated ADO user IDs]
+ado.defaultBranch=main
+
+# Framework Paths
+reconciliation.oldFrameworkPath=[FILL IN - path to Patient_Portal_Automation features folder]
+reconciliation.newFrameworkPath=[FILL IN - path to Personalized_Plus features folder]
+
+# Execution
+execution.mode=local
+browser=chrome
+environment=qa
+
+# Perfecto
+perfecto.host=[FILL IN - yourcloud.perfectomobile.com]
+perfecto.securityToken=[FILL IN - never commit actual value]
+perfecto.domSource=API
+perfecto.manualDomFolder=[FILL IN - only if domSource=MANUAL_FOLDER]
+
+# Claude API
+claude.api.url=https://api.anthropic.com/v1/messages
+claude.model=claude-sonnet-4-20250514
+
+# Output Paths
+report.outputPath=C:\Users\sunsagar\Sunil\Mayo\Automation\MC-Automation-Framework\output\reports
+screenshot.outputPath=C:\Users\sunsagar\Sunil\Mayo\Automation\MC-Automation-Framework\output\screenshots

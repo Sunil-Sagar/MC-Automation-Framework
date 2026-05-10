@@ -1,0 +1,19 @@
+# Config with real values - never commit
+config.properties
+
+# Output files - never commit
+output/
+*.log
+
+# Java build
+target/
+*.class
+*.jar
+
+# Backup files from locator healer
+*.bak
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
