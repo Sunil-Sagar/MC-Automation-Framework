@@ -5,7 +5,7 @@
   "trailingSlash": false,
   "headers": [
     {
-      "source": "MC-Automation-Framework-SETUP.bat",
+      "source": "mc-project-setup-FIXED.bat",
       "headers": [
         {
           "key": "Content-Type",
@@ -13,7 +13,7 @@
         },
         {
           "key": "Content-Disposition",
-          "value": "attachment; filename=MC-Automation-Framework-SETUP.bat"
+          "value": "attachment; filename=mc-project-setup-FIXED.bat"
         }
       ]
     }
