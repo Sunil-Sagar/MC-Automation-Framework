@@ -1,0 +1,57 @@
+QE Newsletter Submission (Revised Draft)
+
+MC - Agentic QA Orchestration Engine
+
+================================================
+
+OBJECTIVE:
+Build an AI-driven system (on GitHub Copilot) that runs and maintains our test automation across Web, iOS, and Android - reducing manual maintenance effort and giving the team a shared, self-improving knowledge base. Live since May 2026. One central Orchestrator routes work to 11 specialized AI agents: test execution, locator repair, Azure DevOps sync, new test creation, and Excel reporting.
+
+================================================
+
+PROBLEM STATEMENT:
+- Two frameworks (legacy + modern) run in parallel across Web, iOS, and Android - double the maintenance workload per release.
+- Broken locators (the references tests use to find on-screen elements) had to be manually traced and fixed every time the app UI changed.
+- Azure DevOps test cases, feature file tags, and tracking spreadsheets drifted out of sync - reconciled by hand.
+- Pass/Fail results were manually copied from test reports into spreadsheets after every run.
+- Fix knowledge lived only in individual engineers' heads - nothing shared or searchable.
+
+================================================
+
+IMPACT:
+
+Program scale (Web + Mobile, both frameworks):
+- Test cases: 5,196 total - 4,219 automated (81%)
+- Proxy validations: 2,394 total - 2,160 automated (90%)
+- Combined: 7,590 total - 6,379 automated (84%)
+
+Before AI tool (manual process):
+- Fixes tracked centrally: 0
+- Time per fix: not measured
+- Cross-platform (iOS vs. Android) defect check: manual, inconsistent
+- Shared knowledge base: 0
+
+Since AI tool (Jun-Sep 2026, lead engineer's centrally-tracked work):
+- 73 issues diagnosed and fixed (locators, timing, navigation), each logged with root cause
+- 51 test cases touched
+- 39 reusable fix patterns now enforced automatically on every future fix
+- 7 minutes - logged time for a 3-locator group fix
+- 60 minutes - logged time for one full new test case built end-to-end (5 files)
+- 1 silent cross-platform defect caught that had gone undetected across multiple prior test cycles
+
+Note: Team-wide numbers (6 additional engineers) are pending - their session logs exist locally but haven't been pushed to the shared tracker yet. Will report full team totals once consolidated.
+
+================================================
+
+HOW DID WE DELIVER:
+- Orchestrator - routes plain-English requests to the right AI agent, tracks progress
+- Test Execution Agent - runs suites, separates real bugs from flaky failures
+- Locator Healing Agent - traces a broken element back to its exact cause and proposes a fix (human approves every change)
+- Reconciliation Agent - cross-checks ADO test cases against feature files and tracking sheets
+- New Test Development Agent - builds new test scenarios using existing proven code
+- Reporting Agent - auto-generates Pass/Fail Excel reports
+- Knowledge Base - every fix and mistake is logged so it's never repeated
+- Tech stack: GitHub Copilot (Claude AI), Java, Selenium, Cucumber, TestNG, Appium, ExtentReports, Perfecto Mobile Cloud, Apache POI, Maven, Azure DevOps REST API
+
+================================================
+
